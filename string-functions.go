@@ -1,11 +1,13 @@
 package main
 
-import s "strings"
-import "fmt"
-
-var p = fmt.Println
+import (
+	"fmt"
+	s "strings"
+)
 
 func main() {
+
+	var p = fmt.Println
 
 	var err error
 
